@@ -1,0 +1,11 @@
+[package]
+name = "mdbook-suiji"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mdbook = "0.4"  # 确保与您使用的 mdbook 版本兼容
+rand = "0.8"  # 用于生成随机数
+clap = "4.0"  # 用于构建命令行界面
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
