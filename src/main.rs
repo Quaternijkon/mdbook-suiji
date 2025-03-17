@@ -6,7 +6,7 @@ use mdbook_suiji::RandomNumberPreprocessor; // 引入刚才实现的预处理器
 use std::{io, process};
 
 pub fn make_app() -> Command {
-    Command::new("random-number-preprocessor")
+    Command::new("suiji-preprocessor")
         .about("A mdbook preprocessor that replaces {{ #random_number }} with a random number")
         .subcommand(
             Command::new("supports")

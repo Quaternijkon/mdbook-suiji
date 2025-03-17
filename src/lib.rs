@@ -14,7 +14,7 @@ impl RandomNumberPreprocessor {
 
 impl Preprocessor for RandomNumberPreprocessor {
     fn name(&self) -> &str {
-        "random-number"
+        "suiji"
     }
 
     fn run(&self, ctx: &PreprocessorContext, book: Book) -> Result<Book, Error> {
